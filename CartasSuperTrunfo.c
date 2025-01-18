@@ -25,10 +25,10 @@ int main() {
     scanf("%d", &número_de_pontos_turísticos);
 
     printf("Digite a população: \n");
-    scanf("%f", &população);
+    scanf("%lf", &população);
 
     printf("Digite a área: \n");
-    scanf("%f", &área);
+    scanf("%lf", &área);
 
     printf("Digite o PIB: \n");
     scanf("%lf", &PIB);
@@ -42,9 +42,9 @@ int main() {
 
     printf("Código da cidade: %d\n", código_da_cidade);
     printf("Número de pontos turísticos: %d\n", número_de_pontos_turísticos);
-    printf("População: %f\n", população);
-    printf("Área: %f\n", área);
-    printf("PIB: %f\n", PIB);
+    printf("População: %lf\n", população);
+    printf("Área: %lf\n", área);
+    printf("PIB: %lf\n", PIB);
     printf("Nome: %s\n", nome);
 
     return 0;
